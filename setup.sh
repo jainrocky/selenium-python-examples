@@ -11,11 +11,6 @@ echo '[INSTALL] Found Python3'
 python3 -m pip -V
 if [ $? -eq 0 ]; then
   echo '[INSTALL] Found pip'
-  if [[ $unamestr == 'Darwin' ]]; then
-      python3 -m pip install --no-cache-dir --upgrade pip
-  else
-      python3 -m pip install --no-cache-dir --upgrade pip --user
-  fi
 else
   echo '[ERROR] python3-pip not installed'
   exit 1
