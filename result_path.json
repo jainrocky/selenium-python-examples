@@ -1,0 +1,19 @@
+{
+    "chromedriver": "/usr/bin/chromedriver",
+    "url":"https://ipuranklist.com/student",
+    "input_path": "//input[@id='enroll'][@class='form-control'][@type='text']",
+    "name_path": "//div[contains(@style, 'text-align: right')]/h4[@class='display-5']",
+
+    "overall":{
+        "overall_tab_path": "//a[@class='nav-link'][text()='Overall']",
+        "table1_path": "//table[@class='modal-data']/tbody/tr",
+        "table2_head_path":"//table[@class='table table-sm ng-star-inserted']/thead[@class='thead-dark']/th",
+        "table2_path": "//table[@class='table table-sm ng-star-inserted']/tbody[@class='tbody']/tr[@class='ng-star-inserted']"
+    },
+    "semester":{
+        "sem_btn_path": "//ul[@class='nav nav-tabs']/li/a[@class='nav-link'][text()='Sem {}']",
+        "table1_path": "//table[@class='modal-data']/tbody/tr",
+        "table2_head_path": "//table[@class='table table-striped table-sm ng-star-inserted']/thead[@class='thead-dark']/th",
+        "table2_path": "//table[@class='table table-striped table-sm ng-star-inserted']/tbody[@class='tbody']/tr[@class='ng-star-inserted']"
+    }
+}
