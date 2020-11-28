@@ -23,7 +23,7 @@ if [ $? -eq 0 ]; then
     echo '[INSTALL] Activating virtualenv'
     source env/bin/activate
 else
-    echo '[ERROR] Failed to create virtualenv. Please install ArcherySec requirements mentioned in Documentation.'
+    echo '[ERROR] Failed to create virtualenv.'
     exit 1
 fi
 
