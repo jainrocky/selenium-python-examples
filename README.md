@@ -15,10 +15,10 @@
 ## Run 
 - Activate virtual env `source env/bin/activate`
 
-1. **Live World Population**
-* python live_world_population.py
+**1. Live World Population**
+* `python live_world_population.py`
 
-2. **Result CLI**
+**2. Result CLI**
 * Run help command to check all options, `python result.py -h`
 * Overall result, `python result.py -id 01415002716 -o`
-* Per semester result, `python result.py -id 01415002716 -s 3`, (-s <sem-number>)
+* Per semester result, `python result.py -id 01415002716 -s 3`, (-s {sem-number})
